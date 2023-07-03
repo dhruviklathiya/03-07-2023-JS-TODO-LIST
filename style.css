@@ -1,13 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    font-weight: 400;
 }
 body {
     font-family: cursive;
     background-color: black;
 }
 .box {
-    height: 10vh;
+    height: 05vh;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -18,14 +19,17 @@ button {
     height: 40px;
     width: 120px;
     font-family: cursive;
-    border-color: white;
+    border-color: transparent;
     border-radius: 15px;
     transition: all 0.5s;
+    box-shadow: 5px 5px 5px black;
+    font-size: 18px;
 }
 button:hover {
     background-color: black;
     color: whitesmoke;
     cursor: pointer;
+    transform: scale(1.1);
 }
 input {
     font-family: cursive;
@@ -43,11 +47,16 @@ table {
     background-color: tomato;
     padding: 20px;
 }
-tr {
-    margin: 10px;
-}
-td {
+td,th{
     margin: 5px;
+    padding: 10px;
+}
+td{
+    font-size: 18px;
+}
+th{
+    font-size: 20px;
+    font-weight: 700;
 }
 .last_btn {
     width: 150PX;
@@ -59,5 +68,8 @@ td {
 h1 {
     text-align: center;
     color: white;
-    margin-top: 60px;
+    margin-top: 5vh;
+}
+#view_table{
+    margin-top: 15vh;
 }
