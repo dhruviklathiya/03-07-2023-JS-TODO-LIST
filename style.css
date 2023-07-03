@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: cursive;
+    background-color: black;
+}
+.box {
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+button {
+    background-color: coral;
+    height: 40px;
+    width: 120px;
+    font-family: cursive;
+    border-color: white;
+    border-radius: 15px;
+    transition: all 0.5s;
+}
+button:hover {
+    background-color: black;
+    color: whitesmoke;
+    cursor: pointer;
+}
+input {
+    font-family: cursive;
+    height: 20px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+table {
+    text-align: center;
+    border: 2px black;
+    border-radius: 5px;
+    overflow: hidden;
+    background-color: tomato;
+    padding: 20px;
+}
+tr {
+    margin: 10px;
+}
+td {
+    margin: 5px;
+}
+.last_btn {
+    width: 150PX;
+}
+.space_ {
+    width: 100px;
+    height: 30px;
+}
+h1 {
+    text-align: center;
+    color: white;
+    margin-top: 60px;
+}

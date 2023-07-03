@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-do list</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>WELCOME TO-DO LIST</h1>
+    <div class="box" style="margin-top: 150px;">
+        <div class="sub_box">
+            <table>
+                <tr>
+                    <form>
+                        <td class="space_"><label>Task:-</label></td>
+                        <td class="space_"><input placeholder="Enter task here" id="task_input" type="text" /></td>
+                        <td class="space_"><button type="button" onclick="add_task()">Add Task</button></td>
+                        <td class="space_"><button type="button" onclick="clear_task()">Clear Task</button></td>
+                        <td class="space_"><button type="button" onclick="show_task()">View Task</button></td>
+                    </form>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <div class="box">
+        <div class="sub_box">
+            <table id="view_table">
+                <tr>
+                    <th style="padding: 10px;">Name of task</th>
+                    <th style="padding: 10px;">Update</th>
+                    <th style="padding: 10px;">Delete</th>
+                    <th style="padding: 10px;">Task completed</th>
+                </tr>
+                <tbody id="records_"></tbody>
+            </table>
+        </div>
+    </div>
+    <script src="todo.js"></script>
+</body>
+</html>
